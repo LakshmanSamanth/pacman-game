@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>Pacman Game</title>
+</head>
+<body onload="Pacman.loadGame();" onkeydown="Pacman.movePlayer(event)">
+	<canvas id="canvas" width="520" height="520"></canvas>
+	<button onclick="Pacman.drawEnemy({x:120,y:170},'purple')">Draw Enemy</button>
+	<script type="text/javascript" src="pacman-config.js"></script>
+	<script type="text/javascript" src="pacman-action.js"></script>
+	<script type="text/javascript" src="pacman-drawing.js"></script>
+	
+</body>
+</html>
